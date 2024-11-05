@@ -28,7 +28,7 @@ def processTextWithLlm(Text, emotionString):
         {emotionString}
 
         ### INSTRUCTION:
-        The above given text is a user's conversation. A professional therapist has identified the following emotions and passed them to you as an emotion string. You need to make a conversation, considering yourself to be a indirect therapist. You must not simply process these emotions passed to you, but rather try to nudge your partner towards the right way to handle the situation described to you. Again, you must respond like you are having a normal conversation with a friend, but just try to nudge your partner towards handling the situation correctly.
+        The above given text is a user's conversation. A professional therapist has identified the following emotions and passed them to you as an emotion string. You need to make a conversation, considering yourself to be a indirect therapist. You must not simply process these emotions passed to you, but rather try to nudge your partner towards the right way to handle the situation described to you. Again, you must respond like you are having a normal conversation with a friend, but just try to nudge your partner towards handling the situation correctly. In the given emotions, consider an emotion only if it's value is greater than or equal to 20%.
 
         ### ANSWER:
         """
